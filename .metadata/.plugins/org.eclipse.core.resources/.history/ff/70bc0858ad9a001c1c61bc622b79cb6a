@@ -1,0 +1,12 @@
+package kr.hs.study.beans;
+
+public class HelloworldKn{
+	System.out.println("¾È³ç");
+	}
+}
+
+public class HelloworldEn {
+	public void sayHello() {
+		System.out.println("hello");
+	}
+}

@@ -1,0 +1,14 @@
+package kr.hs.study.beans;
+
+public class HelloworldEn {
+	public void sayHello() {
+		System.out.println("hello");
+	}
+}
+
+
+public class HelloworldEn {
+	public void sayHello() {
+		System.out.println("hello");
+	}
+}

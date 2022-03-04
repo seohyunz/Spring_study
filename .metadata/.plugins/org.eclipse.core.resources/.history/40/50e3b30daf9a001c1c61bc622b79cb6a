@@ -1,0 +1,8 @@
+package kr.hs.study.beans;
+
+public interface HelloWorld {
+	public static void sayHello() {
+		System.out.println("hello");
+	}
+	
+}

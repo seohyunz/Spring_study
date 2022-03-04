@@ -1,0 +1,13 @@
+package kr.hs.study.main;
+
+import kr.hs.study.beans.HelloworldEn;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		HelloworldEn He = new HelloworldEn();
+		System.out.println(He());
+	}
+
+}

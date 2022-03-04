@@ -1,0 +1,28 @@
+package kr.hs.study.main;
+
+import kr.hs.study.beans.HelloworldEn;
+
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		HelloWorld hello = new HelloworldEn();
+		Helloworl hello2 = new HelloworldKn();
+		
+		callMethod(hello);
+		callMethod(hello2);
+	}
+	public static void callMethod(HelloworldEn hello) {
+		hello.sayHello();
+	}
+	
+	
+	public static void callMethod(HelloworldKn hello2) {
+		hello2.sayHello();
+	}
+	
+	
+
+	
+}
