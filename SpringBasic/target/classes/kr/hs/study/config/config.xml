@@ -9,6 +9,10 @@
                        http://www.springframework.org/schema/context/spring-context.xsd
                        http://www.springframework.org/schema/aop
                        http://www.springframework.org/schema/aop/spring-aop.xsd">
-    <!-- 객체 생성 -->                   
-	<bean id = "test1" class="kr.hs.study.beans.Test"/>     
+    <!-- 객체 생성
+    TestBeam t1 = new TestBeam()
+     -->                   
+	<bean id = "t1" class="kr.hs.study.beans.TestBean"/>  
+	
+	   
 </beans>

@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\_spring_core\SpringBasic\src\main\java\kr\hs\study\main\Mainclass.java"/>
 			<item value="C:\_spring_core\JavaBasic\src\kr\hs\study\main\MainClass.java"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -49,6 +50,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="HelloWorld"/>
 			<item value="SpringBasic"/>
 		</list>
 		<list key="projectNameTemplate">
