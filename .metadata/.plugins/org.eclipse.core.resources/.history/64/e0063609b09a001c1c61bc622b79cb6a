@@ -1,7 +1,0 @@
-package kr.hs.study.beans;
-
-public class HelloworldEn implements HelloWorld {
-	public void sayHello() {
-		System.out.println("hello");
-	}
-}
