@@ -2,11 +2,12 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\_spring_core\ConstructorDI\src\main\java\kr\hs\study\beans\TestBean.java"/>
+			<item value="C:\_spring_core\JavaBasic\src\kr\hs\study\main\MainClass.java"/>
 			<item value="C:\_spring_core\SpringLifeCycle\src\main\java\kr\hs\study\config\config.xml"/>
 			<item value="C:\_spring_core\SpringLifeCycle\pom.xml"/>
 			<item value="C:\_spring_core\HelloWorld\src\main\java"/>
 			<item value="C:\_spring_core\SpringBasic\src\main\java\kr\hs\study\main\Mainclass.java"/>
-			<item value="C:\_spring_core\JavaBasic\src\kr\hs\study\main\MainClass.java"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -48,12 +49,15 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="kr.hs.stydy"/>
 			<item value="kr.hs.study"/>
+			<item value="kr.hs.stydy"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="SetterDI"/>
+			<item value="ConstructorDI"/>
+			<item value="LifeCycle"/>
 			<item value="Helloworld"/>
 			<item value="HelloWorld"/>
 			<item value="SpringLifeCycle"/>
