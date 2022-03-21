@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\_spring_core\AutowireDI\src\main\java\kr\hs\study\main\ClassMain.java"/>
 			<item value="C:\_spring_core\ConstructorDI\src\main\java\kr\hs\study\beans\TestBean.java"/>
 			<item value="C:\_spring_core\JavaBasic\src\kr\hs\study\main\MainClass.java"/>
 			<item value="C:\_spring_core\SpringLifeCycle\src\main\java\kr\hs\study\config\config.xml"/>
@@ -55,6 +56,8 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="JavaBeanConfigralion"/>
+			<item value="AutowireDI"/>
 			<item value="SetterDI"/>
 			<item value="ConstructorDI"/>
 			<item value="LifeCycle"/>

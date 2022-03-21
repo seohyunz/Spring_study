@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:context="http://www.springframework.org/schema/context"
+   xmlns:aop="http://www.springframework.org/schema/aop"
+   xsi:schemaLocation="http://www.springframework.org/schema/beans
+                       http://www.springframework.org/schema/beans/spring-beans.xsd
+                       http://www.springframework.org/schema/context
+                       http://www.springframework.org/schema/context/spring-context.xsd
+                       http://www.springframework.org/schema/aop
+                       http://www.springframework.org/schema/aop/spring-aop.xsd">
+    
+    <!--<bean id = "d1" class="kr.hs.study.beans.DataBean1" lazy-init="true"/>
+	setter에 갑넣기 property 
+	<bean id = "t1" class="kr.hs.study.beans.TestBean1"  >
+		<property name="data1" ref="d1"></property>
+		<property name="data2" ref="d1"></property>
+	</bean>  
+	
+	 객체와 같은 이름 
+	<bean id = "data1" class="kr.hs.study.beans.DataBean1"/>
+	<bean id = "data2" class="kr.hs.study.beans.DataBean1"/>
+	<bean id = "t2" class="kr.hs.study.beans.TestBean1" autowire="byName"/>
+	 t2객체를 만들고 TetsBean의 이름값으로 값을 넣어라 
+		t2의 멤버변수와 이름이 일치하는 bean을 찾아 값을 주입해라
+	
+	<bean id = "t3" class = "kr.hs.study.beans.DataBean1"/>
+	<bean id="t3" class = "kr.hs.study.beans.TestBean1" autowire="byType"/>
+	 
+		t3의 멤버변수와 타입이 일치하는 bean을 찾아 주입해라 (타입은 DataBean)
+	-->
+
+ 	
+	<bean id = "data3" class = "kr.hs.study.beans.DataBean3"/>
+	<bean id = "data4" class = "kr.hs.study.beans.DataBean3"/>
+	<bean id = "t4" class = "kr.hs.study.beans.TestBean3" autowire="constructor">
+
+	
+		
+	</bean>
+	
+	
+	   
+</beans>
