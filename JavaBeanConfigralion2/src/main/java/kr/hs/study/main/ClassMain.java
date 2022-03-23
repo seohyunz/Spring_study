@@ -3,6 +3,7 @@ package kr.hs.study.main;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import kr.hs.study.beans.TestBean1;
+import kr.hs.study.beans.TestBean3;
 import kr.hs.study.config.BeanConfigClass;
 
 public class ClassMain {
@@ -19,9 +20,12 @@ public class ClassMain {
 		System.out.println("___________________________________________");
 		TestBean1 obj3 = ctx.getBean("java3", TestBean1.class);
 		System.out.println(obj3);
-		System.out.println("___________________________________________");
+		
 		TestBean1 obj4 = ctx.getBean("java4", TestBean1.class);
 		System.out.println(obj4);
+		
+		TestBean3 obj5 = ctx.getBean("java5", TestBean3.class);
+		System.out.println(obj5);
 		
 		
 		ctx.close();
