@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\_spring_core\AutowiredConstruct\src\main\java\kr\hs\study\main\MainClass.java"/>
 			<item value="C:\_spring_core\AnnotationBean\src\main\java\kr\hs\study\config\config.xml"/>
 			<item value="C:\_spring_core\JavaBeanConfigralion2\src\main\java\kr\hs\study\main\ClassMain.java"/>
 			<item value="C:\_spring_core\AutowireDI\src\main\java\kr\hs\study\main\ClassMain.java"/>
@@ -58,6 +59,8 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="AutowiredConstructPerson"/>
+			<item value="AutowiredConstruct"/>
 			<item value="JSR250"/>
 			<item value="AnnotationBean"/>
 			<item value="Annotation"/>
@@ -71,8 +74,6 @@
 			<item value="SetterDI"/>
 			<item value="ConstructorDI"/>
 			<item value="LifeCycle"/>
-			<item value="Helloworld"/>
-			<item value="HelloWorld"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

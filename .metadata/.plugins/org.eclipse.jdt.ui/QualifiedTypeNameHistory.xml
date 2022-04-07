@@ -25,14 +25,17 @@
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
     <fullyQualifiedTypeName name="kr.hs.study.beans.TestBean2"/>
-    <fullyQualifiedTypeName name="kr.hs.study.beans.DataBean3"/>
-    <fullyQualifiedTypeName name="kr.hs.study.beans.DataBean4"/>
-    <fullyQualifiedTypeName name="kr.hs.study.beans.TestBean3"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
     <fullyQualifiedTypeName name="kr.hs.study.config.BeanConfigClass"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
     <fullyQualifiedTypeName name="kr.hs.study.beans.TestBean1"/>
+    <fullyQualifiedTypeName name="kr.hs.study.beans.DataBean3"/>
+    <fullyQualifiedTypeName name="kr.hs.study.beans.DataBean4"/>
+    <fullyQualifiedTypeName name="kr.hs.study.beans.TestBean3"/>
     <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
+    <fullyQualifiedTypeName name="kr.hs.study.beans.Person"/>
+    <fullyQualifiedTypeName name="javax.accessibility.AccessibleAttributeSequence"/>
+    <fullyQualifiedTypeName name="kr.hs.study.beans.Test"/>
 </qualifiedTypeNameHistroy>
