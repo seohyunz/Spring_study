@@ -12,10 +12,14 @@
    
    
    <context:annotation-config/>
-  <!-- <bean class="kr.hs.study.beans.Test"/>  --> 
-   <bean id ="t1" class="kr.hs.study.beans.Test" autowire="constructor">
-   		
+   <bean id = "d1" class="kr.hs.study.beans.Person"/>  
+   <bean id = "d2" class="kr.hs.study.beans.Person"/>  
+   <bean id ="t1" class="kr.hs.study.beans.Test" >
+		<constructor-arg  ref = "d1" />
+		<constructor-arg  ref = "d2" />
    </bean>
+   
+    
   
    
 	   

@@ -12,19 +12,13 @@ public class MainClass {
 		// TODO Auto-generated method stub
 		ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("kr/hs/study/config/config.xml");
 		
-		Person p1=new Test();
+		Test t1 = ctx.getBean("t1", Test.class);
 		
-		Test obj1 = ctx.getBean("t1", Test.class);
-		System.out.print(obj1.getP1());
-		System.out.print(obj1.getP2());
-		
-		method(p1);
+		t1.pr();
 	
 	}
 	
 	
-	public static void method(Person cout) {
-		cout.eat();
-	}
+	
 
 }
