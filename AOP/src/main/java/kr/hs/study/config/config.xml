@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:context="http://www.springframework.org/schema/context"
+   xmlns:aop="http://www.springframework.org/schema/aop"
+   xsi:schemaLocation="http://www.springframework.org/schema/beans
+                       http://www.springframework.org/schema/beans/spring-beans.xsd
+                       http://www.springframework.org/schema/context
+                       http://www.springframework.org/schema/context/spring-context.xsd
+                       http://www.springframework.org/schema/aop
+                       http://www.springframework.org/schema/aop/spring-aop.xsd">
+   
+   
+ 
+    <bean id = "advisor" class="kr.hs.study.advisor.AdvisorClass"/>
+    <bean id = "t1" class="kr.hs.study.beans.TestBean1"/>
+    
+    <aop:config>
+    	<aop:aspect ref ="advisor">
+    	<aop:pointcut expression="execution(* method1())" id="point"/>
+    	<!--  * : 리턴타입 상관없고, 모든패키지, 모든클래스에 있는 method1() -->
+    	<!-- <aop:before method="beforemethod" pointcut-ref="point"/> -->
+    	<!-- method1이 실행되기 전에 beforemethod 먼저 실행된다 -> beforemethod 메서드가 먼저 출력된다  --> 
+    	
+    	<aop:after method="beforemethod" pointcut-ref="point"/>
+    	<!-- TestBean의 method1가 먼저 출력된다  -->
+    	
+    	</aop:aspect>
+    	
+    </aop:config>
+
+   
+	   
+</beans>

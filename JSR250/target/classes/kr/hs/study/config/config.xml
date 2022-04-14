@@ -14,6 +14,6 @@
    
    
     <bean id = "t1" class="kr.hs.study.beans.TestBean1" init-method="initMehod"/>
-   <bean id = "t2" class="kr.hs.study.beans.TestBean1" init-method="destoryMehod"/>
+    <bean id = "t2" class="kr.hs.study.beans.TestBean1" init-method="destoryMehod"/>
 	   
 </beans>

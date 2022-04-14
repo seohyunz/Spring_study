@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\_spring_core\ComponentAtowridf\src\main\java\kr\hs\study\main\ClassMain.java"/>
 			<item value="C:\_spring_core\AutowiredConstruct\src\main\java\kr\hs\study\main\MainClass.java"/>
 			<item value="C:\_spring_core\AnnotationBean\src\main\java\kr\hs\study\config\config.xml"/>
 			<item value="C:\_spring_core\JavaBeanConfigralion2\src\main\java\kr\hs\study\main\ClassMain.java"/>
@@ -54,11 +55,17 @@
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
 			<item value="kr.hs.study"/>
+			<item value="kr.hs.styudy"/>
 			<item value="kr.hs.stydy"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Cheik_2"/>
+			<item value="AOP"/>
+			<item value="Des"/>
+			<item value="ComponentAtowridf"/>
+			<item value="compornant"/>
 			<item value="AutowiredConstructPerson"/>
 			<item value="AutowiredConstruct"/>
 			<item value="JSR250"/>
@@ -69,11 +76,6 @@
 			<item value="JavaBeanConfigralion2"/>
 			<item value="Book"/>
 			<item value="Checkin"/>
-			<item value="JavaBeanConfigralion"/>
-			<item value="AutowireDI"/>
-			<item value="SetterDI"/>
-			<item value="ConstructorDI"/>
-			<item value="LifeCycle"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
