@@ -24,6 +24,12 @@
     	
     	<aop:after method="beforemethod" pointcut-ref="point"/>
     	<!-- TestBean의 method1가 먼저 출력된다  -->
+    	<aop:around method="aroundMethod" pointcut-ref="point"/>
+    	
+    	<aop:after-returning method="afterReturningMethod" pointcut-ref="point"/>
+    	
+    	<aop:after-throwing method="afterThrowingMethod"  pointcut-ref="point" throwing="e"/>
+    	
     	
     	</aop:aspect>
     	

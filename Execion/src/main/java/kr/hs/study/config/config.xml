@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:context="http://www.springframework.org/schema/context"
+   xmlns:aop="http://www.springframework.org/schema/aop"
+   xsi:schemaLocation="http://www.springframework.org/schema/beans
+                       http://www.springframework.org/schema/beans/spring-beans.xsd
+                       http://www.springframework.org/schema/context
+                       http://www.springframework.org/schema/context/spring-context.xsd
+                       http://www.springframework.org/schema/aop
+                       http://www.springframework.org/schema/aop/spring-aop.xsd">
+   
+   <bean id = "advisor" class="kr.hs.study.advisor.AdvisorClass"/>
+   <bean id = "t1" class="kr.hs.study.beans.TestBean1"/>
+   
+   <aop:config>
+   	<aop:aspect ref ="advisor">
+   	<!-- <aop:pointcut expression="execution(void kr.hs.study.beans.TestBean1.method1())" id="point"/> -->
+   	<!-- 리턴타입이 void, kr.hs.study.beans패키지의 TestBean1클래스의 method1()메서드가 관심 메서드이다 -->
+   	
+   	<!-- <aop:pointcut expression="execution(void kr.hs.study.beans.TestBean1.method1(int))" id="point"/> -->
+   	<!-- 리턴타입이 void, kr.hs.study.beans패키지의 TestBean1클래스의 int 매개변수 method1(int)메서드가 관심 메서드이다 -->
+   	
+   	<aop:pointcut expression="execution(void kr.hs.study.beans.TestBean1.method1(java.lang.String))" id="point"/>
+   	<!-- 리턴타입이 void, kr.hs.study.beans패키지의 TestBean1클래스의 String 매개변수 method1(java.lang.String)메서드가 관심 메서드이다 -->
+   	
+   	<aop:pointcut expression="execution(void kr.hs.study.beans.TestBean1.method1(*))" id="point"/>
+   	<!-- 리턴타입이 void, kr.hs.study.beans패키지의 TestBean1클래스의 모든 타입의 매개변수 1개가 관심 메서드이다 -->
+   	
+   	<aop:pointcut expression="execution(void kr.hs.study.beans.TestBean1.method1(int, int))" id="point"/>
+   	<!-- 리턴타입이 void, kr.hs.study.beans패키지의 TestBean1클래스의 정수형 매개변수 2개가 관심 메서드이다 -->
+   	
+   	
+   	
+ 	<aop:before method="beforMethod" pointcut-ref="point"/>
+ 
+    		
+   	</aop:aspect>
+   
+   </aop:config>
+   
+
+	   
+</beans>
