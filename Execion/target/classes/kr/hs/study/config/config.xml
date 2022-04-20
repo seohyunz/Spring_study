@@ -30,6 +30,43 @@
    	<aop:pointcut expression="execution(void kr.hs.study.beans.TestBean1.method1(int, int))" id="point"/>
    	<!-- 리턴타입이 void, kr.hs.study.beans패키지의 TestBean1클래스의 정수형 매개변수 2개가 관심 메서드이다 -->
    	
+   	<aop:pointcut expression="execution(void kr.hs.study.beans.TestBean1.method1(int, java.lang.String))" id="point"/>
+   	<!-- 리턴타입이 void, kr.hs.study.beans패키지의 TestBean1클래스의 정수형 매개변수 1개, 문자열 매개변수 1개 관심 메서드이다 -->
+   	
+   	<aop:pointcut expression="execution(void kr.hs.study.beans.TestBean1.method1(*,*))" id="point"/>
+   	<!-- 리턴타입이 void, kr.hs.study.beans패키지의 TestBean1클래스의 method1, 모든 타입의 매개변수 2개-->
+   	
+   	<aop:pointcut expression="execution(void kr.hs.study.beans.TestBean1.method1(..))" id="point"/>
+   	<!-- 리턴타입이 void, kr.hs.study.beans패키지의 TestBean1클래스의 method1, 모든 타입의 매개변수 0개이상-->
+   	
+   	<aop:pointcut expression="execution(void kr.hs.study.beans.TestBean1.*(..))" id="point"/>
+   	<!-- 리턴타입이 void, kr.hs.study.beans패키지의 TestBean1클래스, 모든 메서드 -->
+   	
+	<aop:pointcut expression="execution(void kr.hs.study.beans.*.method1(..))" id="point"/>
+   	<!-- 리턴타입이 void, kr.hs.study.beans패키지의 모든클래스, method1 메서드 -->
+   	
+   	<aop:pointcut expression="execution(void kr.hs.study.beans.*.*(..))" id="point"/>
+   	<!-- 리턴타입이 void, kr.hs.study.beans패키지의 모든 클래스, 모든 메서드 -->
+   	
+   	<aop:pointcut expression="execution(void kr.hs.study.*.*.*(..))" id="point"/>
+   	<!-- 리턴타입이 void, kr.hs.study의 모든 패키지의 모든 클래스, 모든 메서드 -->
+   	
+   	<aop:pointcut expression="execution(void *.*(..))" id="point"/>
+   	<!-- 리턴타입이 void 모든패키지의 모든 클래스, 모든 메서드 -->
+   	
+   	<aop:pointcut expression="execution(* *.*(..))" id="point"/>
+   	<!-- 리턴타입이 int, 모든 패키지의 모든 클래스, 모든 메서드 -->
+   	
+   	
+   	<!-- 모든 리턴타입, 모든 패키지의 모든 클래스, 모든 메서드 -->
+   	
+   	
+   	
+   	
+   	
+   	
+   	
+   	
    	
    	
  	<aop:before method="beforMethod" pointcut-ref="point"/>

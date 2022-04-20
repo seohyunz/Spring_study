@@ -18,6 +18,11 @@ public class TestBean1 {
 	public void method1(int a1, int a2) {
 		System.out.println("정수형 매개변수2개 method1");
 	}
+	public void method1(int a1, String a2) {
+		System.out.println("정수형 매개변수1개, 문자열 매개변수1개 method1");
+	}
 	
 	
+	
+
 }
