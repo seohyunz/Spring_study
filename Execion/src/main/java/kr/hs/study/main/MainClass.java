@@ -17,8 +17,6 @@ public class MainClass {
 		obj1.method1(100,200);
 		obj1.method1(100,"けけけけ");
 		
-		
-		
 		ctx.close();
 		
 	}
