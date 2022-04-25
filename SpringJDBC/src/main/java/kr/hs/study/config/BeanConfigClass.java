@@ -12,7 +12,7 @@ public class BeanConfigClass {
 	@Bean
 	public BasicDataSource source() {
 		BasicDataSource source = new BasicDataSource();
-		source.setDriverClassName("oracle.jdbc.Oracledriver");
+		source.setDriverClassName("oracle.jdbc.OracleDriver");
 		source.setUrl("jdbc:oracle:thin:@localhost:1521:xe");
 		source.setUsername("scott");
 		source.setPassword("tiger");
