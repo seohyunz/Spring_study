@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\_spring_core\SpringJDBC\src\main\java\kr\hs\study\main\MainClass.java"/>
 			<item value="C:\_spring_core\Execion\src\main\java\kr\hs\study\config\config.xml"/>
 			<item value="C:\_spring_core\AOP\src\main\java\kr\hs\study\config\config.xml"/>
 			<item value="C:\_spring_core\ComponentAtowridf\src\main\java\kr\hs\study\main\ClassMain.java"/>
@@ -63,6 +64,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="JavaselectJDBC"/>
 			<item value="SpringJDBC"/>
 			<item value="AopExample"/>
 			<item value="Execion"/>
@@ -77,7 +79,6 @@
 			<item value="AnnotationBean"/>
 			<item value="Annotation"/>
 			<item value="JavaDI2"/>
-			<item value="JavaDI"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

@@ -16,7 +16,7 @@ public class MainClass {
 		//dao 가져오기
 		TestDAO dao= ctx.getBean(TestDAO.class);
 		
-		//TestBean 객체 t1 만들어서 10, Springㄴ넣기
+		//TestBean 객체 t1 만들어서 10, Spring넣기
 		Testbean t1 = new Testbean();
 		t1.setData1(100);
 		t1.setData2("Spring1");
