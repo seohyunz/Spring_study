@@ -40,7 +40,6 @@
     <fullyQualifiedTypeName name="org.aspectj.lang.ProceedingJoinPoint"/>
     <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
-    <fullyQualifiedTypeName name="kr.hs.study.beans.Testbean"/>
     <fullyQualifiedTypeName name="java.lang.annotation.AnnotationTypeMismatchException"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.PropertySource"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Scope"/>
@@ -54,4 +53,5 @@
     <fullyQualifiedTypeName name="org.springframework.jdbc.core.JdbcTemplate"/>
     <fullyQualifiedTypeName name="kr.hs.study.dao.TestDAO"/>
     <fullyQualifiedTypeName name="kr.hs.study.beans.TestBean"/>
+    <fullyQualifiedTypeName name="kr.hs.study.beans.Testbean"/>
 </qualifiedTypeNameHistroy>

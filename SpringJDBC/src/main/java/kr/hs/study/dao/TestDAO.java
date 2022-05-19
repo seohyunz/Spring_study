@@ -20,6 +20,15 @@ public class TestDAO {
 		db.update(sql,bean.getData1(),bean.getData2());
 	}
 	
-
+	//update
+	public void update_data(Testbean bean) {
+		String sql="update test set data2=? where data1=?";
+		db.update(sql,bean.getData1(),bean.getData2());
+	}
+	
+	public void delete_data(int data1 ) {
+		String sql="delete test set data2=? where data1=?";
+		db.update(sql);
+	}
 	
 }
