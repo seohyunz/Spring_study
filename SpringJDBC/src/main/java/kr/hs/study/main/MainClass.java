@@ -1,5 +1,7 @@
 package kr.hs.study.main;
 
+import java.util.List;
+
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -26,9 +28,18 @@ public class MainClass {
 		 * 
 		 * dao.insert_data(t2);
 		 */
+		/*
+		 * dao.delete_data(10); System.out.println("Inserted");
+		 * 
+		 * List<>
+		 */
 		
-		dao.delete_data(10);
-		System.out.println("Inserted");
+		List<Testbean> list = dao.select_data();
+		
+		for(Testbean bean: list) {
+			System.out.println("data1"+ bean.getData1());
+			System.out.println("data2"+ bean.getData2());
+		}
 		
 		
 		ctx.close();
